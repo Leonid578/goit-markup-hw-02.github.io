@@ -1,0 +1,43 @@
+/* цвет основного текста  #ffffff */
+/* вторичный цвет текста  ##F5F4FA */
+/* вторичный цвет фона */
+/* белый цвет  #FFFFFF */
+/* Акцент   */
+/* синий цвет #2196F3 */
+
+:root {
+    --primary-texy-color:#757575;
+    --title-text-color: #ffffff;
+    --accent-color: #2196F3;
+}
+.logo span{
+    color: var(--accent-color);
+}
+.studio:hover,.studio:focus{
+    var(--accent-color)
+}
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color #000000
+}
+
+
+body {
+    font-family: sans-serif;
+    font-style: normal;
+    font-family: Roboto;
+    background-color:#E5E5E5;
+    color: var(--primary-texy-color) ;
+}
+
+.button{
+    background-repeat:  #2196F3;
+    color: #fff;
+}
+
+.hover notactive
