@@ -1,43 +1,188 @@
-/* цвет основного текста  #ffffff */
-/* вторичный цвет текста  ##F5F4FA */
-/* вторичный цвет фона */
+/* цвет основного текста  #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет фона #ffffff */
 /* белый цвет  #FFFFFF */
-/* Акцент   */
-/* синий цвет #2196F3 */
+/* Акцент  #2196F3 */
 
+/* ---------------------Rooot--------------------- */
 :root {
-    --primary-texy-color:#757575;
-    --title-text-color: #ffffff;
+    --mail-title-color: #ffffff ;
+    --secondary-title-color:#212121 ; 
+    --main-text-color:#212121 ;
+    --secondary-text-color:#757575;
     --accent-color: #2196F3;
 }
-.logo span{
+/* ---------------------Body--------------------- */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list{
+     list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+    
+.btn:hover,
+.btn:focus{
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.none{
+    background-color: #ffffff;
+    color: #ffffff;
+    list-style: none;
+}  
+/* ---------------------Header--------------------- */
+
+.header-logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:#000000;
+}
+
+.header-list{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.header-link{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+
+.header-link:hover,
+.header-link:focus{
     color: var(--accent-color);
 }
-.studio:hover,.studio:focus{
-    var(--accent-color)
+
+.header-tel{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:#757575;
 }
-.logo{
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color #000000
+
+.header-mail{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.header-mail:hover,.header-mail:focus{
+    color: var(--accent-color);}
+.header-tel:hover,.header-tel:focus{
+    color: var(--accent-color);}
+
+/* ---------------------Main--------------------- */
+.hero{
+background-color: #2F303A;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-idea{
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--mail-title-color);
+}
+
+.hero-button{
+background: #2196F3;
+color: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.hang-title{
+font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.hang-text{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+.title-section{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--secondary-title-color);
+}
+
+.our-team-title{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
+.our-team-text{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.1875;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 }
 
 
-body {
-    font-family: sans-serif;
-    font-style: normal;
-    font-family: Roboto;
-    background-color:#E5E5E5;
-    color: var(--primary-texy-color) ;
-}
 
-.button{
-    background-repeat:  #2196F3;
-    color: #fff;
-}
 
-.hover notactive
+
+
+
+
